@@ -1,9 +1,7 @@
-import React from 'react'
+import React from "react";
 
 const Shorts = () => {
-  return (
-    <div>Shorts</div>
-  )
-}
+  return <div>Shorts</div>;
+};
 
-export default Shorts
+export default Shorts;

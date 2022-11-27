@@ -6,7 +6,7 @@ import Shorts from "./Components/Shorts/index";
 
 function App() {
   return (
-    <div className="App">
+    <>
       {/* Navbar */}
       <Navbar />
       {/* Sidebar */}
@@ -17,7 +17,7 @@ function App() {
       <Kontent />
       {/* Shorts */}
       <Shorts />
-    </div>
+    </>
   );
 }
 
