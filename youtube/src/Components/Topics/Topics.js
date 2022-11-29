@@ -16,7 +16,7 @@ const Topics = () => {
     "Cartoons",
   ];
   return (
-    <div className="flex items-center space-x-4 px-5 lg:px-10 pt-2">
+    <div className="flex flex-wrap  items-center gap-4 px-5 lg:px-9 pt-2 lg:justify-center">
       {topics.map((topic) => (
         <TopicBtn topic={topic} />
       ))}

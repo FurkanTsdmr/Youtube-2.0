@@ -6,18 +6,22 @@ import Shorts from "./Components/Shorts/index";
 
 function App() {
   return (
-    <>
+    <div className="App">
       {/* Navbar */}
       <Navbar />
-      {/* Sidebar */}
-      <Sidebar />
-      {/* Topics */}
-      <Topics />
-      {/* Kontent */}
-      <Kontent />
-      {/* Shorts */}
+      <div className="flex">
+        {/* Sidebar */}
+        <Sidebar />
+        <div>
+          {/* Topics */}
+          <Topics />
+          {/* Kontent */}
+          <Kontent />
+          {/* Shorts */}
+        </div>
+      </div>
       <Shorts />
-    </>
+    </div>
   );
 }
 

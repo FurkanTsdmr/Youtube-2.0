@@ -5,11 +5,11 @@ const ContentCard = ({ photo, title, profile }) => {
   return (
     // Thumbnail
     <div>
-      <div className="pl-4">
+      <div className="pl-4 w-full xs:overflow-y-visible ">
         <img
           src={photo}
           alt="Channel Photo"
-          className="object-cover w-80 h-40 rounded-[0.75rem] "
+          className="object-cover  w-80 h-40 rounded-[0.75rem] hover:scale-110 overflow-hidden ease-out"
         />
       </div>
       {/* Description */}
@@ -18,7 +18,7 @@ const ContentCard = ({ photo, title, profile }) => {
           <img
             src={profile}
             alt="Profile Image"
-            className="w-10 h-10 pt-1 rounded-full shrink-0"
+            className="w-10 h-10 pt-1 rounded-full shrink-0  "
           />
         </div>
         <div className=" overflow-hidden flex items-center">

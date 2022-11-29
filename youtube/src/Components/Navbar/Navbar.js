@@ -6,7 +6,7 @@ import logo from "../../Img/Videos.png";
 
 const Navbar = () => {
   return (
-    <div className="flex items-center justify-between  px-5 py-3 lg:px-2">
+    <div className="flex items-center justify-between  px-5 py-3 lg:px-4">
       {/* Left Side */}
       <div className="flex items-center shrink-0">
         <FiMenu className="w-6 h-6" />
